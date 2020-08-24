@@ -1,0 +1,64 @@
+{
+	"@type":"NativeView",
+	"Name":"Default",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Store')/Hierarchies('Store')"
+				},
+				"Expression":"{[Store].[Store].Members}"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Record')/Hierarchies('Record')"
+				},
+				"Expression":"{[Record].[Record].Members}"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Period')/Hierarchies('Period')"
+				},
+				"Expression":"{[Period].[Period].Members}"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Period')/Hierarchies('Period')/Elements('Total Years')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Record Sales Measure')/Hierarchies('Record Sales Measure')"
+				},
+				"Expression":"{[Record Sales Measure].[Record Sales Measure].Members}"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Record Sales Measure')/Hierarchies('Record Sales Measure')/Elements('Qty')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}
