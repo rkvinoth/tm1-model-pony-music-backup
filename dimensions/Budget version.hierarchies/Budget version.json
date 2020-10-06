@@ -1,0 +1,27 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Budget version",
+	"Elements":
+	[
+		{
+			"Name":"Budget version 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget version 2",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Budget version.subsets/All Members.json",
+		"Budget version.subsets/Budgetplan Version_DE.json",
+		"Budget version.subsets/presupuesto versiU+00F3n_es.json",
+		"Budget version.subsets/Presupuesto versión_ES.json",
+		"Budget version.subsets/U+4E88U+7B97U+6848_ja.json",
+		"Budget version.subsets/U+9884U+7B97U+7248U+672C_sc.json",
+		"Budget version.subsets/Version du budget_FR.json",
+		"Budget version.subsets/予算案_JA.json",
+		"Budget version.subsets/预算版本_SC.json"
+	]
+}

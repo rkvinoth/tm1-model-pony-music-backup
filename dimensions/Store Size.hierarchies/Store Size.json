@@ -1,0 +1,28 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Store Size",
+	"Elements":
+	[
+		{
+			"Name":"Full Size Store",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mini Size Store",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Store Size.subsets/All Members.json",
+		"Store Size.subsets/geschU+00E4ftsgrU+00F6U+00DFe_de.json",
+		"Store Size.subsets/Geschäftsgröße_DE.json",
+		"Store Size.subsets/Taille de magasin_FR.json",
+		"Store Size.subsets/tamaU+00F1o de la tienda_es.json",
+		"Store Size.subsets/Tamaño de la tienda_ES.json",
+		"Store Size.subsets/U+5546U+5E97U+89C4U+6A21_sc.json",
+		"Store Size.subsets/U+5E97U+8217U+30B5U+30A4U+30BA_ja.json",
+		"Store Size.subsets/商店规模_SC.json",
+		"Store Size.subsets/店舗サイズ_JA.json"
+	]
+}

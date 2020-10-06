@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"tamaU+00F1o de la tienda_es",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Full Size Store')"
+		},
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Mini Size Store')"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Asset Type",
+	"Elements":
+	[
+		{
+			"Name":"Freehold",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Leasehold",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Asset Type.subsets/All Members.json",
+		"Asset Type.subsets/anlagevermU+00F6genstyp_de.json",
+		"Asset Type.subsets/Anlagevermögenstyp_DE.json",
+		"Asset Type.subsets/Tipo de activo_ES.json",
+		"Asset Type.subsets/type dU+2019actif_fr.json",
+		"Asset Type.subsets/Type d’actif_FR.json",
+		"Asset Type.subsets/U+8CC7U+7523U+30BFU+30A4U+30D7_ja.json",
+		"Asset Type.subsets/U+8D44U+4EA7U+7C7BU+578B_sc.json",
+		"Asset Type.subsets/資産タイプ_JA.json",
+		"Asset Type.subsets/资产类型_SC.json"
+	]
+}

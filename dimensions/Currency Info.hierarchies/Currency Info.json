@@ -1,0 +1,25 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Currency Info",
+	"Elements":
+	[
+		{
+			"Name":"Currency",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Currency Info.subsets/All Members.json",
+		"Currency Info.subsets/informaciU+00F3n de moneda_es.json",
+		"Currency Info.subsets/Información de moneda_ES.json",
+		"Currency Info.subsets/informations relatives U+00E0 la devise_fr.json",
+		"Currency Info.subsets/Informations relatives à la devise_FR.json",
+		"Currency Info.subsets/U+8D27U+5E01U+4FE1U+606F_sc.json",
+		"Currency Info.subsets/U+901AU+8CA8U+60C5U+5831_ja.json",
+		"Currency Info.subsets/wU+00E4hrungsinformationen_de.json",
+		"Currency Info.subsets/Währungsinformationen_DE.json",
+		"Currency Info.subsets/货币信息_SC.json",
+		"Currency Info.subsets/通貨情報_JA.json"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"anlagevermU+00F6genstyp_de",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Asset Type')/Hierarchies('Asset Type')/Elements('Freehold')"
+		},
+		{
+			"@id":"Dimensions('Asset Type')/Hierarchies('Asset Type')/Elements('Leasehold')"
+		}
+	]
+}

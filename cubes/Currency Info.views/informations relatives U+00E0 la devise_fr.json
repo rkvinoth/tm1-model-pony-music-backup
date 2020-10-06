@@ -1,0 +1,26 @@
+{
+	"@type":"NativeView",
+	"Name":"informations relatives U+00E0 la devise_fr",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Currency Info')/Hierarchies('Currency Info')/Subsets('Informations relatives à la devise_FR')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Countries_Currency')/Hierarchies('Countries_Currency')/Subsets('Pays_Devise_FR')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}

@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"U+4EA4U+63DBU+30ECU+30FCU+30C8_ja",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Exchange Rate')/Hierarchies('Exchange Rate')/Elements('ExchangeRate')"
+		}
+	]
+}

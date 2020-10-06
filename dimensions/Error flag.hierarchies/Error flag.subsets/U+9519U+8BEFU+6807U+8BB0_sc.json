@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"U+9519U+8BEFU+6807U+8BB0_sc",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Error flag')/Hierarchies('Error flag')/Elements('OK')"
+		},
+		{
+			"@id":"Dimensions('Error flag')/Hierarchies('Error flag')/Elements('Very Good')"
+		},
+		{
+			"@id":"Dimensions('Error flag')/Hierarchies('Error flag')/Elements('Considerable')"
+		},
+		{
+			"@id":"Dimensions('Error flag')/Hierarchies('Error flag')/Elements('Planned Promotion Value % too low')"
+		}
+	]
+}

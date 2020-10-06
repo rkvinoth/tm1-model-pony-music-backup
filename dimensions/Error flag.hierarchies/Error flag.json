@@ -1,0 +1,35 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Error flag",
+	"Elements":
+	[
+		{
+			"Name":"OK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Very Good",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Considerable",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planned Promotion Value % too low",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Error flag.subsets/All Members.json",
+		"Error flag.subsets/Distintivo de error_ES.json",
+		"Error flag.subsets/Fehlerkennzeichen_DE.json",
+		"Error flag.subsets/indicateur dU+2019erreur_fr.json",
+		"Error flag.subsets/Indicateur d’erreur_FR.json",
+		"Error flag.subsets/U+30A8U+30E9U+30FCU+30FBU+30D5U+30E9U+30B0_ja.json",
+		"Error flag.subsets/U+9519U+8BEFU+6807U+8BB0_sc.json",
+		"Error flag.subsets/エラー・フラグ_JA.json",
+		"Error flag.subsets/错误标记_SC.json"
+	]
+}

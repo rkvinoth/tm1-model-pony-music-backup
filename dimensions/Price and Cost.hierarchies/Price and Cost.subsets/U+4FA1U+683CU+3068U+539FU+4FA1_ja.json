@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"U+4FA1U+683CU+3068U+539FU+4FA1_ja",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Price and Cost')/Hierarchies('Price and Cost')/Elements('Unit sale price')"
+		},
+		{
+			"@id":"Dimensions('Price and Cost')/Hierarchies('Price and Cost')/Elements('Unit cost')"
+		}
+	]
+}

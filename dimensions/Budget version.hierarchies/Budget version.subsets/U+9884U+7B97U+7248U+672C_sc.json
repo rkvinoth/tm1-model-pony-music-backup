@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"U+9884U+7B97U+7248U+672C_sc",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Budget version')/Hierarchies('Budget version')/Elements('Budget version 1')"
+		},
+		{
+			"@id":"Dimensions('Budget version')/Hierarchies('Budget version')/Elements('Budget version 2')"
+		}
+	]
+}

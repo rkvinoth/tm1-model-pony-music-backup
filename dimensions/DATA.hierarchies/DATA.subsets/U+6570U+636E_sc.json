@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"U+6570U+636E_sc",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('DATA')/Hierarchies('DATA')/Elements('DATA')"
+		}
+	]
+}

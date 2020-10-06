@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"U+30A8U+30E9U+30FCU+30FBU+30D5U+30E9U+30B0_ja",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Error flag')/Hierarchies('Error flag')/Elements('OK')"
+		},
+		{
+			"@id":"Dimensions('Error flag')/Hierarchies('Error flag')/Elements('Very Good')"
+		},
+		{
+			"@id":"Dimensions('Error flag')/Hierarchies('Error flag')/Elements('Considerable')"
+		},
+		{
+			"@id":"Dimensions('Error flag')/Hierarchies('Error flag')/Elements('Planned Promotion Value % too low')"
+		}
+	]
+}

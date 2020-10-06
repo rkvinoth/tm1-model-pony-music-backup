@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"U+73B0U+6709U+5546U+5E97U+6536U+5165_sc",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Existing Stores Revenue')/Hierarchies('Existing Stores Revenue')/Elements('Existing Stores Revenue')"
+		},
+		{
+			"@id":"Dimensions('Existing Stores Revenue')/Hierarchies('Existing Stores Revenue')/Elements('GROSS MARGIN %')"
+		},
+		{
+			"@id":"Dimensions('Existing Stores Revenue')/Hierarchies('Existing Stores Revenue')/Elements('Returns and Allowances')"
+		},
+		{
+			"@id":"Dimensions('Existing Stores Revenue')/Hierarchies('Existing Stores Revenue')/Elements('Volume Discount')"
+		},
+		{
+			"@id":"Dimensions('Existing Stores Revenue')/Hierarchies('Existing Stores Revenue')/Elements('Cash Discount')"
+		},
+		{
+			"@id":"Dimensions('Existing Stores Revenue')/Hierarchies('Existing Stores Revenue')/Elements('Freight')"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Exchange Rate",
+	"Elements":
+	[
+		{
+			"Name":"ExchangeRate",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Exchange Rate.subsets/All Members.json",
+		"Exchange Rate.subsets/Default.json",
+		"Exchange Rate.subsets/Taux de change_FR.json",
+		"Exchange Rate.subsets/Tipo de cambio_ES.json",
+		"Exchange Rate.subsets/U+4EA4U+63DBU+30ECU+30FCU+30C8_ja.json",
+		"Exchange Rate.subsets/U+6C47U+7387_sc.json",
+		"Exchange Rate.subsets/Wechselkurs_DE.json",
+		"Exchange Rate.subsets/交換レート_JA.json",
+		"Exchange Rate.subsets/汇率_SC.json"
+	]
+}

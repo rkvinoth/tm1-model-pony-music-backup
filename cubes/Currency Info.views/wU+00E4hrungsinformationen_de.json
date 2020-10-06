@@ -1,0 +1,26 @@
+{
+	"@type":"NativeView",
+	"Name":"wU+00E4hrungsinformationen_de",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Currency Info')/Hierarchies('Currency Info')/Subsets('Währungsinformationen_DE')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Countries_Currency')/Hierarchies('Countries_Currency')/Subsets('Länder_Währung_DE')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.00"
+}

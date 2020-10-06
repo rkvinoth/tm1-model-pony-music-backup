@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"U+8CC7U+7523U+30BFU+30A4U+30D7_ja",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Asset Type')/Hierarchies('Asset Type')/Elements('Freehold')"
+		},
+		{
+			"@id":"Dimensions('Asset Type')/Hierarchies('Asset Type')/Elements('Leasehold')"
+		}
+	]
+}

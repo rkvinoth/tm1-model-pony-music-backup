@@ -1,0 +1,40 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Assumptions",
+	"Elements":
+	[
+		{
+			"Name":"Average Monthly Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Opening Cost P&L",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Opening Cost Capital",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GROSS MARGIN %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GMWA",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Assumptions.subsets/All Members.json",
+		"Assumptions.subsets/hypothU+00E8ses_fr.json",
+		"Assumptions.subsets/Hypothèses_FR.json",
+		"Assumptions.subsets/Suposiciones_ES.json",
+		"Assumptions.subsets/U+00DCbernahmen_de.json",
+		"Assumptions.subsets/U+5047U+8BBE_sc.json",
+		"Assumptions.subsets/U+63A8U+5B9A_ja.json",
+		"Assumptions.subsets/Übernahmen_DE.json",
+		"Assumptions.subsets/假设_SC.json",
+		"Assumptions.subsets/推定_JA.json"
+	]
+}

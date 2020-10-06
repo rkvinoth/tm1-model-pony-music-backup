@@ -105,15 +105,15 @@
 		},
 		{
 			"Name":"Australia",
-			"Type":"Numeric"
+			"Type":"Consolidated"
 		},
 		{
 			"Name":"Netherlands",
-			"Type":"Numeric"
+			"Type":"Consolidated"
 		},
 		{
 			"Name":"Amsterdam",
-			"Type":"Numeric"
+			"Type":"Consolidated"
 		},
 		{
 			"Name":"Leidsestraat",
@@ -125,7 +125,7 @@
 		},
 		{
 			"Name":"'s-Gravenhage",
-			"Type":"Numeric"
+			"Type":"Consolidated"
 		},
 		{
 			"Name":"Spui",
@@ -144,18 +144,8 @@
 			"Weight":1
 		},
 		{
-			"ParentName":"Australia",
-			"ComponentName":"Sydney",
-			"Weight":1
-		},
-		{
-			"ParentName":"Australia",
-			"ComponentName":"Melbourne",
-			"Weight":1
-		},
-		{
-			"ParentName":"Australia",
-			"ComponentName":"Brisbane",
+			"ParentName":"Total Stores",
+			"ComponentName":"Netherlands",
 			"Weight":1
 		},
 		{
@@ -264,8 +254,18 @@
 			"Weight":1
 		},
 		{
-			"ParentName":"Total Stores",
-			"ComponentName":"Netherlands",
+			"ParentName":"Australia",
+			"ComponentName":"Sydney",
+			"Weight":1
+		},
+		{
+			"ParentName":"Australia",
+			"ComponentName":"Melbourne",
+			"Weight":1
+		},
+		{
+			"ParentName":"Australia",
+			"ComponentName":"Brisbane",
 			"Weight":1
 		},
 		{

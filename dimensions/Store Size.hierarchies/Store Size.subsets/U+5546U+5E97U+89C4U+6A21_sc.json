@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"U+5546U+5E97U+89C4U+6A21_sc",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Full Size Store')"
+		},
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Mini Size Store')"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"U+901AU+8CA8U+60C5U+5831_ja",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Currency Info')/Hierarchies('Currency Info')/Elements('Currency')"
+		}
+	]
+}

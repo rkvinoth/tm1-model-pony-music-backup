@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"test with regions",
+	"Code@Code.link":"test with regions.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}
