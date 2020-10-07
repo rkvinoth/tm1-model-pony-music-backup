@@ -1,0 +1,21 @@
+{
+	"Version": "1.0",
+	"Tasks": {
+		"Task_A": {
+			"Process": "Processes('Complete_Target')"
+		}
+	},
+	"Objects": {
+		"Cubes": {
+			"Link": "/all_cubes.json"
+		},
+		"Cubes('Cube_A')": {
+			"Dependencies": [
+				"Cubes('Cube_B')"
+			]
+		},
+		"Files": {
+			"Link": "/all_files/"
+		}
+	}
+}

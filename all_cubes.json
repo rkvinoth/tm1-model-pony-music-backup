@@ -1,0 +1,1344 @@
+{
+	"@type":"Collection(Cube)",
+	"value":
+	[
+		{
+			"Name":"Allocation Calculation",
+			"Rules@Code.link":"Allocation Calculation.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Allocation List')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Allocation Calculation')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Allocation Calculation.views/All.json",
+				"Allocation Calculation.views/Allocation Calculation.json",
+				"Allocation Calculation.views/Allocation Summary.json",
+				"Allocation Calculation.views/Default.json",
+				"Allocation Calculation.views/Drill_Allocation Receivers.json"
+			]
+		},
+		{
+			"Name":"Allocation Source Definition",
+			"Rules@Code.link":"Allocation Source Definition.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Allocation List')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Allocation Source Definition')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Allocation Source Definition.views/All.json",
+				"Allocation Source Definition.views/Allocation Source Definition.json",
+				"Allocation Source Definition.views/Default.json",
+				"Allocation Source Definition.views/Drill_Allocation Senders.json",
+				"Allocation Source Definition.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Asset Life",
+			"Rules@Code.link":"Asset Life.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Asset Types')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Asset Life')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Asset Life.views/All.json",
+				"Asset Life.views/Asset Life.json",
+				"Asset Life.views/Default.json",
+				"Asset Life.views/Drill_Asset Life.json",
+				"Asset Life.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Base Sales Forecast",
+			"Rules@Code.link":"Base Sales Forecast.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Country and Region')"
+				},
+				{
+					"@id":"Dimensions('Retailers')"
+				},
+				{
+					"@id":"Dimensions('Existing Stores Revenue')"
+				},
+				{
+					"@id":"Dimensions('Store Type')"
+				},
+				{
+					"@id":"Dimensions('Budget version')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Base Sales Forecast.views/All.json",
+				"Base Sales Forecast.views/Base Sales Forecast.json",
+				"Base Sales Forecast.views/Basisabsatzprognose_DE.json",
+				"Base Sales Forecast.views/previsiU+00F3n de las ventas base_es.json",
+				"Base Sales Forecast.views/Previsión de las ventas base_ES.json",
+				"Base Sales Forecast.views/prU+00E9visions de ventes de base_fr.json",
+				"Base Sales Forecast.views/Prévisions de ventes de base_FR.json",
+				"Base Sales Forecast.views/U+57FAU+672CU+8CA9U+58F2U+4E88U+6E2C_ja.json",
+				"Base Sales Forecast.views/U+57FAU+672CU+9500U+552EU+9884U+6D4B_sc.json",
+				"Base Sales Forecast.views/基本販売予測_JA.json",
+				"Base Sales Forecast.views/基本销售预测_SC.json"
+			]
+		},
+		{
+			"Name":"Benefit Assumptions",
+			"Rules@Code.link":"Benefit Assumptions.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Benefit')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Benefit Assumptions.views/All.json",
+				"Benefit Assumptions.views/Benefit Assumptions.json",
+				"Benefit Assumptions.views/Default.json",
+				"Benefit Assumptions.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Calendar",
+			"Rules@Code.link":"Calendar.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Calendar')"
+				},
+				{
+					"@id":"Dimensions('String')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Calendar.views/All.json",
+				"Calendar.views/Calendar.json",
+				"Calendar.views/Default.json",
+				"Calendar.views/Update Forecast Month.json"
+			]
+		},
+		{
+			"Name":"Capital",
+			"Rules@Code.link":"Capital.rules",
+			"DrillthroughRules@Code.link":"Capital.drillthrough.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('CapitalList')"
+				},
+				{
+					"@id":"Dimensions('Asset Types')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Capital')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Capital.views/All.json",
+				"Capital.views/Capital.json",
+				"Capital.views/Default.json",
+				"Capital.views/Drill_Capital.json",
+				"Capital.views/Input.json",
+				"Capital.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Compensation",
+			"Rules@Code.link":"Compensation.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('EmployeeList')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Compensation')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Compensation.views/All.json",
+				"Compensation.views/Compensation.json",
+				"Compensation.views/Default.json",
+				"Compensation.views/Input.json"
+			]
+		},
+		{
+			"Name":"Compensation Reporting",
+			"Rules@Code.link":"Compensation Reporting.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Employee Name')"
+				},
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('EmployeeList')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Compensation')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Compensation Reporting.views/All.json",
+				"Compensation Reporting.views/Compensation by Employee.json",
+				"Compensation Reporting.views/Compensation Review by Employee.json",
+				"Compensation Reporting.views/Default.json",
+				"Compensation Reporting.views/FTE by Employee.json"
+			]
+		},
+		{
+			"Name":"Currency Info",
+			"Rules@Code.link":"Currency Info.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Countries_Currency')"
+				},
+				{
+					"@id":"Dimensions('Currency Info')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Currency Info.views/All.json",
+				"Currency Info.views/Currency Info.json",
+				"Currency Info.views/informaciU+00F3n de moneda_es.json",
+				"Currency Info.views/Información de moneda_ES.json",
+				"Currency Info.views/informations relatives U+00E0 la devise_fr.json",
+				"Currency Info.views/Informations relatives à la devise_FR.json",
+				"Currency Info.views/U+8D27U+5E01U+4FE1U+606F_sc.json",
+				"Currency Info.views/U+901AU+8CA8U+60C5U+5831_ja.json",
+				"Currency Info.views/wU+00E4hrungsinformationen_de.json",
+				"Currency Info.views/Währungsinformationen_DE.json",
+				"Currency Info.views/货币信息_SC.json",
+				"Currency Info.views/通貨情報_JA.json"
+			]
+		},
+		{
+			"Name":"Depreciation",
+			"Rules@Code.link":"Depreciation.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Asset Types')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Depreciation')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Depreciation.views/All.json",
+				"Depreciation.views/Capital Depreciation Review.json",
+				"Depreciation.views/Default.json",
+				"Depreciation.views/Depreciation.json",
+				"Depreciation.views/Depreciation by Month.json",
+				"Depreciation.views/Drill_Depreciation.json"
+			]
+		},
+		{
+			"Name":"Dimensions by Cubes",
+			"Rules@Code.link":"Dimensions by Cubes.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('}Dimensions')"
+				},
+				{
+					"@id":"Dimensions('}Cubes')"
+				},
+				{
+					"@id":"Dimensions('List')"
+				}
+			],
+			"Views@Code.links":[]
+		},
+		{
+			"Name":"Employee",
+			"Rules@Code.link":"Employee.rules",
+			"DrillthroughRules@Code.link":"Employee.drillthrough.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('EmployeeList')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Employee')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Employee.views/All.json",
+				"Employee.views/Default.json",
+				"Employee.views/Drill_Employee.json",
+				"Employee.views/Employee.json",
+				"Employee.views/Input.json",
+				"Employee.views/Name.json",
+				"Employee.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Exchange Rates",
+			"Rules@Code.link":"Exchange Rates.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Currency')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Exchange Rate')"
+				},
+				{
+					"@id":"Dimensions('Exchange Rate Type')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Exchange Rates.views/All.json",
+				"Exchange Rates.views/Default.json",
+				"Exchange Rates.views/Exchange Rates.json",
+				"Exchange Rates.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"ExternalFactors",
+			"Rules@Code.link":"ExternalFactors.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('ExternalFactors')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"ExternalFactors.views/All.json",
+				"ExternalFactors.views/Default.json",
+				"ExternalFactors.views/ExportToSPSS.json",
+				"ExternalFactors.views/ExternalFactors.json"
+			]
+		},
+		{
+			"Name":"FcstMethod",
+			"Rules@Code.link":"FcstMethod.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Account')"
+				},
+				{
+					"@id":"Dimensions('FcstMethod')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"FcstMethod.views/All.json"
+			]
+		},
+		{
+			"Name":"GLTransactions",
+			"Rules@Code.link":"GLTransactions.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('TrxID')"
+				},
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Account')"
+				},
+				{
+					"@id":"Dimensions('TrxMeasures')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"GLTransactions.views/All.json",
+				"GLTransactions.views/GLTransactions.json",
+				"GLTransactions.views/zDelete.json"
+			]
+		},
+		{
+			"Name":"Gross Margin Calculation",
+			"Rules@Code.link":"Gross Margin Calculation.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Retailers')"
+				},
+				{
+					"@id":"Dimensions('Country and Region')"
+				},
+				{
+					"@id":"Dimensions('Store Type')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Budget version')"
+				},
+				{
+					"@id":"Dimensions('Gross Sales Margin')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Gross Margin Calculation.views/All.json",
+				"Gross Margin Calculation.views/Bruttogewinnspannenberechnung_DE.json",
+				"Gross Margin Calculation.views/Calcul marge brute_FR.json",
+				"Gross Margin Calculation.views/cU+00E1lc. margen bruto_es.json",
+				"Gross Margin Calculation.views/Cálc. margen bruto_ES.json",
+				"Gross Margin Calculation.views/Gross Margin Calculation.json",
+				"Gross Margin Calculation.views/U+6BDBU+5229U+7387U+8BA1U+7B97_sc.json",
+				"Gross Margin Calculation.views/U+7C97U+5229U+76CAU+8A08U+7B97_ja.json",
+				"Gross Margin Calculation.views/毛利率计算_SC.json",
+				"Gross Margin Calculation.views/粗利益計算_JA.json"
+			]
+		},
+		{
+			"Name":"Income Statement",
+			"Rules@Code.link":"Income Statement.rules",
+			"DrillthroughRules@Code.link":"Income Statement.drillthrough.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Currency Calc')"
+				},
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Account')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Income Statement.views/All.json",
+				"Income Statement.views/Analysis.json",
+				"Income Statement.views/BudgetFrom.json",
+				"Income Statement.views/Budget Variance.json",
+				"Income Statement.views/Compensation by Quarter.json",
+				"Income Statement.views/Currency.json",
+				"Income Statement.views/Currency Change.json",
+				"Income Statement.views/Default.json",
+				"Income Statement.views/Deprecation Budget vs Actual.json",
+				"Income Statement.views/Deprecation Budget vs Target.json",
+				"Income Statement.views/Expenses.json",
+				"Income Statement.views/Forecast by Month.json",
+				"Income Statement.views/FTE by Month IS.json",
+				"Income Statement.views/Gross Margin Budget vs Target.json",
+				"Income Statement.views/High Level PL Report.json",
+				"Income Statement.views/Income Statement.json",
+				"Income Statement.views/Income Statement by Quarter.json",
+				"Income Statement.views/Income Statement Currency.json",
+				"Income Statement.views/OpEx.json",
+				"Income Statement.views/OPEX Budget vs Target.json",
+				"Income Statement.views/OpExView.json",
+				"Income Statement.views/Opex Year Over Year.json",
+				"Income Statement.views/Payroll Budget vs Target.json",
+				"Income Statement.views/Phased Costs.json",
+				"Income Statement.views/Summary.json",
+				"Income Statement.views/Target.json",
+				"Income Statement.views/zActualForTrx.json",
+				"Income Statement.views/zCacheView.json",
+				"Income Statement.views/zClearComments.json",
+				"Income Statement.views/zCopyFrom.json",
+				"Income Statement.views/zMD_IncomeStatement.json"
+			]
+		},
+		{
+			"Name":"Income Statement Reporting",
+			"Rules@Code.link":"Income Statement Reporting.rules",
+			"DrillthroughRules@Code.link":"Income Statement Reporting.drillthrough.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Currency Calc')"
+				},
+				{
+					"@id":"Dimensions('Organization Reporting')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Account')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Income Statement Reporting.views/All.json",
+				"Income Statement Reporting.views/Default.json",
+				"Income Statement Reporting.views/Income Statement - Management.json"
+			]
+		},
+		{
+			"Name":"Job Code Assumptions",
+			"Rules@Code.link":"Job Code Assumptions.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('jobcode')"
+				},
+				{
+					"@id":"Dimensions('JobCodeAsmpt')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Job Code Assumptions.views/All.json",
+				"Job Code Assumptions.views/By Department.json",
+				"Job Code Assumptions.views/Default.json",
+				"Job Code Assumptions.views/Drill.json",
+				"Job Code Assumptions.views/Job Code Assumptions.json",
+				"Job Code Assumptions.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Job Type Assumption",
+			"Rules@Code.link":"Job Type Assumption.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('JobType')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('JobTypeAssumption')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Job Type Assumption.views/All.json",
+				"Job Type Assumption.views/Default.json",
+				"Job Type Assumption.views/Drill.json",
+				"Job Type Assumption.views/Job Type Assumption.json",
+				"Job Type Assumption.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Line Item Detail",
+			"Rules@Code.link":"Line Item Detail.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Account')"
+				},
+				{
+					"@id":"Dimensions('LineItemList')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('LineItemDetail')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Line Item Detail.views/All.json",
+				"Line Item Detail.views/Default.json",
+				"Line Item Detail.views/Drill_Line Item Detail.json",
+				"Line Item Detail.views/Line Item Detail.json",
+				"Line Item Detail.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Metrics",
+			"Rules@Code.link":"Metrics.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Metrics')"
+				},
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Metrics Indicators')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Metrics.views/24Retail Plan.json",
+				"Metrics.views/All.json",
+				"Metrics.views/Budget Performance Chart.json",
+				"Metrics.views/Budget Performance Scorecard.json",
+				"Metrics.views/Default.json",
+				"Metrics.views/Forecast Performance Chart.json",
+				"Metrics.views/Forecast Performance Scorecard.json",
+				"Metrics.views/Impact Analysis.json",
+				"Metrics.views/Performance Scorecard.json",
+				"Metrics.views/Performance Scorecard Chart.json",
+				"Metrics.views/Review.json",
+				"Metrics.views/Smartco 2015 Plan.json"
+			]
+		},
+		{
+			"Name":"New Store Plan",
+			"Rules@Code.link":"New Store Plan.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Country and Region')"
+				},
+				{
+					"@id":"Dimensions('ID numbers')"
+				},
+				{
+					"@id":"Dimensions('Budget version')"
+				},
+				{
+					"@id":"Dimensions('New Stores')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"New Store Plan.views/All.json",
+				"New Store Plan.views/neues geschU+00E4ft - plan_de.json",
+				"New Store Plan.views/Neues Geschäft - Plan_DE.json",
+				"New Store Plan.views/New Store Plan.json",
+				"New Store Plan.views/Nouveau plan de magasin_FR.json",
+				"New Store Plan.views/Nuevo plan de tienda_ES.json",
+				"New Store Plan.views/U+65B0U+5546U+5E97U+8BA1U+5212_sc.json",
+				"New Store Plan.views/U+65B0U+898FU+5E97U+8A08U+753B_ja.json",
+				"New Store Plan.views/新商店计划_SC.json",
+				"New Store Plan.views/新規店計画_JA.json"
+			]
+		},
+		{
+			"Name":"Phased Costs",
+			"Rules@Code.link":"Phased Costs.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Account')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('PhasedCosts')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Phased Costs.views/All.json",
+				"Phased Costs.views/Default.json",
+				"Phased Costs.views/Drill_Phased Costs.json",
+				"Phased Costs.views/Phased Costs.json",
+				"Phased Costs.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Product",
+			"Rules@Code.link":"Product.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Products')"
+				},
+				{
+					"@id":"Dimensions('Budget version')"
+				},
+				{
+					"@id":"Dimensions('Price and Cost')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Product.views/All.json",
+				"Product.views/Product.json",
+				"Product.views/Productos_ES.json",
+				"Product.views/Produits_FR.json",
+				"Product.views/Produkte_DE.json",
+				"Product.views/U+4EA7U+54C1_sc.json",
+				"Product.views/U+88FDU+54C1_ja.json",
+				"Product.views/产品_SC.json",
+				"Product.views/製品_JA.json"
+			]
+		},
+		{
+			"Name":"Promotions Plan",
+			"Rules@Code.link":"Promotions Plan.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Country and Region')"
+				},
+				{
+					"@id":"Dimensions('ID numbers')"
+				},
+				{
+					"@id":"Dimensions('Budget version')"
+				},
+				{
+					"@id":"Dimensions('Promotions')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Promotions Plan.views/All.json",
+				"Promotions Plan.views/Plan de promociones_ES.json",
+				"Promotions Plan.views/Plan promotions_FR.json",
+				"Promotions Plan.views/Promotions Plan.json",
+				"Promotions Plan.views/U+30D7U+30EDU+30E2U+30FCU+30B7U+30E7U+30F3U+8A08U+753B_ja.json",
+				"Promotions Plan.views/U+4FC3U+9500U+8BA1U+5212_sc.json",
+				"Promotions Plan.views/Werbeaktionsplan_DE.json",
+				"Promotions Plan.views/プロモーション計画_JA.json",
+				"Promotions Plan.views/促销计划_SC.json"
+			]
+		},
+		{
+			"Name":"Rate BOM",
+			"Rules@Code.link":"Rate BOM.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Plant')"
+				},
+				{
+					"@id":"Dimensions('product')"
+				},
+				{
+					"@id":"Dimensions('Rate Measure')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Rate BOM.views/24Retail BOM.json",
+				"Rate BOM.views/3G 64Gb BOM.json",
+				"Rate BOM.views/All.json",
+				"Rate BOM.views/Average BOM by Product.json",
+				"Rate BOM.views/Bom By SKU_Plant.json",
+				"Rate BOM.views/Commodity Example.json",
+				"Rate BOM.views/Component.json",
+				"Rate BOM.views/Default.json",
+				"Rate BOM.views/New SKU Add example.json",
+				"Rate BOM.views/Rate BOM.json",
+				"Rate BOM.views/Rate BOM Input.json",
+				"Rate BOM.views/Smartco BOM.json",
+				"Rate BOM.views/zCopyFrom.json",
+				"Rate BOM.views/zCopySKU_BOM.json"
+			]
+		},
+		{
+			"Name":"Record Price",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Period')"
+				},
+				{
+					"@id":"Dimensions('Record')"
+				},
+				{
+					"@id":"Dimensions('Record Price Measure')"
+				}
+			],
+			"Views@Code.links":[]
+		},
+		{
+			"Name":"Record Rating",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Period')"
+				},
+				{
+					"@id":"Dimensions('Chart')"
+				},
+				{
+					"@id":"Dimensions('Record')"
+				},
+				{
+					"@id":"Dimensions('Record Rating Measure')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Record Rating.views/Default.json"
+			]
+		},
+		{
+			"Name":"Record Sales",
+			"Rules@Code.link":"Record Sales.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Period')"
+				},
+				{
+					"@id":"Dimensions('Store')"
+				},
+				{
+					"@id":"Dimensions('Record')"
+				},
+				{
+					"@id":"Dimensions('Record Sales Measure')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Record Sales.views/Default.json"
+			]
+		},
+		{
+			"Name":"Relative Time",
+			"Rules@Code.link":"Relative Time.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Relative Time')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Relative Time.views/All.json",
+				"Relative Time.views/Default.json",
+				"Relative Time.views/Forecast Month.json",
+				"Relative Time.views/Relative Time.json"
+			]
+		},
+		{
+			"Name":"Revenue",
+			"Rules@Code.link":"Revenue.rules",
+			"DrillthroughRules@Code.link":"Revenue.drillthrough.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Channel')"
+				},
+				{
+					"@id":"Dimensions('product')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('Revenue')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Revenue.views/All.json",
+				"Revenue.views/Channel Detail by Product.json",
+				"Revenue.views/Compare.json",
+				"Revenue.views/Default.json",
+				"Revenue.views/Drill.json",
+				"Revenue.views/Drill_Revenue.json",
+				"Revenue.views/GM by Channel.json",
+				"Revenue.views/GM Report by Organization_SKU.json",
+				"Revenue.views/Input.json",
+				"Revenue.views/Predictive Review.json",
+				"Revenue.views/Product Profitability by Channel.json",
+				"Revenue.views/Product Profitability by Quarter.json",
+				"Revenue.views/Product Profitability Chart.json",
+				"Revenue.views/Product Profitability Chart by Quarter.json",
+				"Revenue.views/Product Unit Forecast.json",
+				"Revenue.views/Revenue.json",
+				"Revenue.views/Revenue Analysis.json",
+				"Revenue.views/Revenue Analysis by Quarter.json",
+				"Revenue.views/Revenue Analysis Chart.json",
+				"Revenue.views/Revenue Budget vs Target.json",
+				"Revenue.views/Revenue Chart Test.json",
+				"Revenue.views/Test Data Loads.json",
+				"Revenue.views/Total Product Margin by Channel.json",
+				"Revenue.views/Total Units Sold by Channel.json",
+				"Revenue.views/Units Sold.json",
+				"Revenue.views/Units Sold by Channel.json",
+				"Revenue.views/Units Sold by Product.json",
+				"Revenue.views/Volume of Units by YQ.json",
+				"Revenue.views/zCopyFrom.json",
+				"Revenue.views/zCopyProduct.json",
+				"Revenue.views/zExportData.json",
+				"Revenue.views/zExportUnitsSoldSPSS.json",
+				"Revenue.views/zMD_Revenue.json",
+				"Revenue.views/zUpdateIS.json",
+				"Revenue.views/zZeroPredictiveVersion.json"
+			]
+		},
+		{
+			"Name":"Revenue Assumptions",
+			"Rules@Code.link":"Revenue Assumptions.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('product')"
+				},
+				{
+					"@id":"Dimensions('Channel')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				},
+				{
+					"@id":"Dimensions('RevenueAsmpt')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Revenue Assumptions.views/All.json",
+				"Revenue Assumptions.views/Default.json",
+				"Revenue Assumptions.views/Detail.json",
+				"Revenue Assumptions.views/Input.json",
+				"Revenue Assumptions.views/Revenue Assumptions.json",
+				"Revenue Assumptions.views/Revenue Assumptions by Channel.json",
+				"Revenue Assumptions.views/zCopyAsmpt.json",
+				"Revenue Assumptions.views/zCopyFrom.json"
+			]
+		},
+		{
+			"Name":"Revenue Reporting",
+			"Rules@Code.link":"Revenue Reporting.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Channel')"
+				},
+				{
+					"@id":"Dimensions('product')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Year')"
+				},
+				{
+					"@id":"Dimensions('Revenue')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Revenue Reporting.views/All.json",
+				"Revenue Reporting.views/Variance Analysis.json"
+			]
+		},
+		{
+			"Name":"Social Media",
+			"Rules@Code.link":"Social Media.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('product')"
+				},
+				{
+					"@id":"Dimensions('SM Entries')"
+				},
+				{
+					"@id":"Dimensions('SM Reviews')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Social Media.views/All.json",
+				"Social Media.views/Reviews.json"
+			]
+		},
+		{
+			"Name":"Spread Methods",
+			"Rules@Code.link":"Spread Methods.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Spread Methods')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Version')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Spread Methods.views/All.json",
+				"Spread Methods.views/Default.json",
+				"Spread Methods.views/Spread Methods.json",
+				"Spread Methods.views/zCopyFrom.json",
+				"Spread Methods.views/zCopyProduct.json"
+			]
+		},
+		{
+			"Name":"Store Cost",
+			"Rules@Code.link":"Store Cost.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Country and Region')"
+				},
+				{
+					"@id":"Dimensions('Retailers')"
+				},
+				{
+					"@id":"Dimensions('Assumptions')"
+				},
+				{
+					"@id":"Dimensions('Store Size')"
+				},
+				{
+					"@id":"Dimensions('Store Type')"
+				},
+				{
+					"@id":"Dimensions('DATA')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Store Cost.views/All.json",
+				"Store Cost.views/Coste de la tienda_ES.json",
+				"Store Cost.views/coU+00FBt magasin_fr.json",
+				"Store Cost.views/Coût magasin_FR.json",
+				"Store Cost.views/kosten fU+00FCr geschU+00E4fte_de.json",
+				"Store Cost.views/Kosten für Geschäfte_DE.json",
+				"Store Cost.views/Store Cost.json",
+				"Store Cost.views/U+5546U+5E97U+6210U+672C_sc.json",
+				"Store Cost.views/U+5E97U+8217U+8CBBU+7528_ja.json",
+				"Store Cost.views/商店成本_SC.json",
+				"Store Cost.views/店舗費用_JA.json"
+			]
+		},
+		{
+			"Name":"Store Sales Plan",
+			"Rules@Code.link":"Store Sales Plan.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Retailers')"
+				},
+				{
+					"@id":"Dimensions('Countries_Currency')"
+				},
+				{
+					"@id":"Dimensions('Products')"
+				},
+				{
+					"@id":"Dimensions('Month')"
+				},
+				{
+					"@id":"Dimensions('Budget version')"
+				},
+				{
+					"@id":"Dimensions('Store Sales Plan')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Store Sales Plan.views/absatzplan des geschU+00E4fts_de.json",
+				"Store Sales Plan.views/Absatzplan des Geschäfts_DE.json",
+				"Store Sales Plan.views/All.json",
+				"Store Sales Plan.views/Plan de ventas de tienda_ES.json",
+				"Store Sales Plan.views/prU+00E9visions de ventes du magasin_fr.json",
+				"Store Sales Plan.views/Prévisions de ventes du magasin_FR.json",
+				"Store Sales Plan.views/Sale_Plan.json",
+				"Store Sales Plan.views/Store Sales Plan.json",
+				"Store Sales Plan.views/U+5546U+5E97U+9500U+552EU+8BA1U+5212_sc.json",
+				"Store Sales Plan.views/U+5E97U+8217U+8CA9U+58F2U+8A08U+753B_ja.json",
+				"Store Sales Plan.views/商店销售计划_SC.json",
+				"Store Sales Plan.views/店舗販売計画_JA.json"
+			]
+		},
+		{
+			"Name":"Task Workflow",
+			"Rules@Code.link":"Task Workflow.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Task')"
+				},
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Task Workflow Measure')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Task Workflow.views/All.json",
+				"Task Workflow.views/Default.json",
+				"Task Workflow.views/Task Workflow.json",
+				"Task Workflow.views/z_TI_cube Task Workflow reset Status.json",
+				"Task Workflow.views/zTaskWorkflowClear.json"
+			]
+		},
+		{
+			"Name":"Version Copy Control",
+			"Rules@Code.link":"Version Copy Control.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('LineItemList')"
+				},
+				{
+					"@id":"Dimensions('Version Copy Measures')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Version Copy Control.views/All.json",
+				"Version Copy Control.views/Default.json",
+				"Version Copy Control.views/View1.json",
+				"Version Copy Control.views/zVersionCopy.json"
+			]
+		},
+		{
+			"Name":"Version Subset Control",
+			"Rules@Code.link":"Version Subset Control.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('Version Subsets')"
+				},
+				{
+					"@id":"Dimensions('LineItemList')"
+				},
+				{
+					"@id":"Dimensions('Version Subset Measures')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Version Subset Control.views/All.json",
+				"Version Subset Control.views/Default.json",
+				"Version Subset Control.views/Version Subset Control.json"
+			]
+		},
+		{
+			"Name":"Workflow Reporting",
+			"Rules@Code.link":"Workflow Reporting.rules",
+			"Dimensions":
+			[
+				{
+					"@id":"Dimensions('BI Measure')"
+				},
+				{
+					"@id":"Dimensions('organization')"
+				},
+				{
+					"@id":"Dimensions('Workflow Info')"
+				}
+			],
+			"Views@Code.links":
+			[
+				"Workflow Reporting.views/All.json"
+			]
+		}
+	]
+}
